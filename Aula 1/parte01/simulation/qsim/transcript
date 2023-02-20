@@ -1,0 +1,12 @@
+# do GateDemo.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:56:15 on Mar 10,2022
+# vlog -work work GateDemo.vo 
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Users/tomas/OneDrive - Universidade de Aveiro/Tomás/U.A/Cadeiras/LSD/Aula 1/simulation/qsim/work/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vlog-9) Problem while writing internal20180930A file "C:/Users/tomas/OneDrive - Universidade de Aveiro/Tomás/U.A/Cadeiras/LSD/Aula 1/simulation/qsim/work/_temp/vlogfzi90i".
+# GateDemo.vo(32): Verilog Compiler exiting
+# End time: 09:56:15 on Mar 10,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: c:/intelfpga_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./GateDemo.do line 3

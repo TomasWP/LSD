@@ -1,0 +1,21 @@
+|Contador
+clk => s_countB[0].CLK
+clk => s_countB[1].CLK
+clk => s_countA[0].CLK
+clk => s_countA[1].CLK
+reset => s_countA.OUTPUTSELECT
+reset => s_countA.OUTPUTSELECT
+reset => s_countB.OUTPUTSELECT
+reset => s_countB.OUTPUTSELECT
+pointA => s_countA.OUTPUTSELECT
+pointA => s_countA.OUTPUTSELECT
+pointA => s_countB.OUTPUTSELECT
+pointA => s_countB.OUTPUTSELECT
+pointB => s_countB.OUTPUTSELECT
+pointB => s_countB.OUTPUTSELECT
+countA[0] <= s_countA[0].DB_MAX_OUTPUT_PORT_TYPE
+countA[1] <= s_countA[1].DB_MAX_OUTPUT_PORT_TYPE
+countB[0] <= s_countB[0].DB_MAX_OUTPUT_PORT_TYPE
+countB[1] <= s_countB[1].DB_MAX_OUTPUT_PORT_TYPE
+
+

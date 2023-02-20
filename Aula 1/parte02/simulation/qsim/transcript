@@ -1,0 +1,14 @@
+# do VHDLDemo.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:13 on Mar 17,2022
+# vcom -work work VHDLDemo.vho 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Users/tomas/OneDrive - Universidade de Aveiro/Tomás/U.A/Cadeiras/LSD/Aula 1/parte02/simulation/qsim/work/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Users/tomas/OneDrive - Universidade de Aveiro/Tomás/U.A/Cadeiras/LSD/Aula 1/parte02/simulation/qsim/work/_temp/vcomnctcxj".
+# ** Note: VHDLDemo.vho(30): VHDL Compiler exiting
+# End time: 10:22:13 on Mar 17,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: c:/intelfpga_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Executing ONERROR command at macro ./VHDLDemo.do line 3

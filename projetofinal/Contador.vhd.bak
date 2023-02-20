@@ -1,0 +1,32 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity Contador is
+	port(reset,clock: in std_logic;
+			inputA : in std_logic;
+			inputB : in std_logic;
+			outputA : out std_logic_vector(1 downto 0)
+			outputB : out std_logic_vector(1 downto 0));
+end Contador;
+
+architecture arq_cont of Contador is
+begin
+	process (clock, reset)
+	variable contA : integer range 0 to 3;
+	variable contB : integer range 0 to 3;
+	begin
+		if reset = '1' then
+			contA := 0;
+			contB := 0;
+		elsif rising_edge(clock) then
+			if (contA = 3 or contB= 3) then
+				reset = '1';
+			elsif inputA = '0' then
+				contA := contA+1;
+				outputA = conv_std_logic_vector(contA,2);
+			elsif inputB = '0' then
+				contB := contB+1;
+				outputB = conv_std_logic_vector(contB,2);
+		end if;
+	end process;
+end arq_cont;
